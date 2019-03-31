@@ -15,32 +15,40 @@ namespace Payroll
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the following information when prompted\n" +
-            "Name, Social Security Number, Hourly Pay Rate\n" +
-            "number hours worked");
-            Console.Write("Name:  ");
-            String name = Console.ReadLine();
-            Console.Write("SSN First Three Digits:  ");
-            String ssn1 = Console.ReadLine();
-            Console.Write("SSN Two Middle Digits:  ");
-            String ssn2 = Console.ReadLine();
-            Console.Write("SSN Last Four Digits:  ");
-            String ssn3 = Console.ReadLine();
-            Console.Write("Hourly Pay Rate:  ");
-            double hourlyPayRate = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Hours Worked:  ");
-            double hoursWorked = Convert.ToDouble(Console.ReadLine());
-            double grossPay = hourlyPayRate * hoursWorked;
+			///Data entry of employee details
+			Console.WriteLine ("Weekly Payroll");
+			Console.Write("Name: ");
+			string name = Console.ReadLine();
+			Console.Write ("SSN:  ");
+			string ssn = Console.ReadLine();
+			Console.Write("Hourly Payrate:  ");
+			double payrate = Convert.ToDouble (Console.ReadLine ( ));
+			Console.Write("Hours Worked:  ");
+			int hours = Convert.ToInt32 (Console.ReadLine ( ));
+			Console.WriteLine();
+			///Calculate withholdings and netpay
+			double grosspay = payrate * hours;
+			double federal = 0.15 * grosspay;
+			double state = 0.05 * grosspay;
+			double netPay = grosspay - (federal + state);
 
-            string ssn = (ssn1 + "-" + ssn2 + "-" + ssn3);
-            string gpConverdion = grossPay.ToString("C2");
-            string hprConveerion = hourlyPayRate.ToString("C2");
-            Console.WriteLine("\tPAYROLL EARNINGS\n" +
-                "\nName:\t\t\t{0}" +
-                "\nSSN:\t\t\t{1}" +
-                "\nHourly Pay Rate\t\t{2} " +
-                "\nHours Worked:\t\t{3} " +
-                "\nGross Pay\t\t{4}", name, ssn, hprConveerion, hoursWorked, gpConverdion);
+			///Strings created to display data in currency format
+			string payrateCurrency = payrate.ToString("$#,##0.00");
+			string grosspayCurrency = grosspay.ToString("$#,##0.00");
+			string federalCurrency = federal.ToString("$#,##0.00");
+			string stateCurrency = state.ToString("$#,##0.00");
+			string netPayCurrency = netPay.ToString("$#,##0.00");
+			Console.WriteLine();
+
+			///Display payroll details
+			Console.WriteLine ("Payroll For: \t{0}", name);
+			Console.WriteLine ("SSN:  \t\t{0}", ssn);
+			Console.WriteLine ("Hours Worked:  \t{0}", hours);
+			Console.WriteLine ("Payrate:  \t{0}", payrateCurrency);
+			Console.WriteLine ("Gross Pay:  \t{0}", grosspayCurrency);
+			Console.WriteLine ("Federal:  \t{0}", federalCurrency);
+			Console.WriteLine ("State:  \t{0}", stateCurrency);
+			Console.WriteLine ("Net Pay:  \t{0}", netPayCurrency);
             Console.ReadLine();
         }
     }
