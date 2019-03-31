@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FixDebugTwo4
 {
@@ -10,15 +6,13 @@ namespace FixDebugTwo4
 	{
 		static void Main (string [] args)
 		{
-			String costString
-
-	  double cost;
-			final double TAX = 0.06;
-			costString = JOptionPane.showInputDialog ("Enter price of item you are buying", "Purchases",
-			   JOptionPane.INFORMATION_MESSAGE);
-			cost = Double.parseInt (costString);
-			JOptionPane.showMessageDialog (null, "With " + tax * 100 +
-			   "% tax,  purchase  is $" + ( cost - cost * tax ));
+			Console.Write("Enter the price of the item you are buying ");
+			string costString = Console.ReadLine();
+			double cost = Convert.ToDouble(costString);
+			const double TAX = 0.06;
+			Console.WriteLine("With a cost of {0} and tax of {1} the final " +
+				"purchase price is {2}", cost, TAX, (cost * TAX + cost));
+			Console.ReadLine();
 		}
 	}
 }
