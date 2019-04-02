@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28721.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsInteractiveGUI", "TestsInteractiveGUI.csproj", "{B08708FE-DAEE-49E0-B7ED-3CC79E8EF662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B08708FE-DAEE-49E0-B7ED-3CC79E8EF662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08708FE-DAEE-49E0-B7ED-3CC79E8EF662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08708FE-DAEE-49E0-B7ED-3CC79E8EF662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08708FE-DAEE-49E0-B7ED-3CC79E8EF662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FD463E5-7A7F-495D-96E6-598BE8239F9A}
+	EndGlobalSection
+EndGlobal
