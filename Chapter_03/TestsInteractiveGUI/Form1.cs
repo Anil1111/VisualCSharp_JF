@@ -7,9 +7,9 @@ using System.Windows.Forms;
 
 namespace TestsInteractiveGUI
 {
-	public partial class testAverages : Form
+	public partial class TestAverages : Form
 	{
-		public testAverages ( )
+		public TestAverages ( )
 		{
 			InitializeComponent ( );
 		}

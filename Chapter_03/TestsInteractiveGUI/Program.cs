@@ -16,7 +16,7 @@ namespace TestsInteractiveGUI
 		{
 			Application.EnableVisualStyles ( );
 			Application.SetCompatibleTextRenderingDefault (false);
-			Application.Run (new testAverages ( ));
+			Application.Run (new TestAverages ( ));
 		}
 	}
 }

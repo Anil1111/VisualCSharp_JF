@@ -2,7 +2,7 @@
 
 namespace TestsInteractiveGUI
 {
-	partial class testAverages
+	partial class TestAverages
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -144,7 +144,7 @@ namespace TestsInteractiveGUI
 			this.avgScore.TabIndex = 11;
 			this.avgScore.Text = "Average Score";
 			// 
-			// testAverages
+			// TestAverages
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -161,7 +161,7 @@ namespace TestsInteractiveGUI
 			this.Controls.Add(this.test3);
 			this.Controls.Add(this.test2);
 			this.Controls.Add(this.test1);
-			this.Name = "testAverages";
+			this.Name = "TestAverages";
 			this.Text = "Test Scores Average";
 			this.ResumeLayout(false);
 			this.PerformLayout();
