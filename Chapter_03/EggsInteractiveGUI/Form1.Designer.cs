@@ -1,6 +1,6 @@
 ﻿namespace EggsInteractiveGUI
 {
-	partial class eggProduction
+	partial class EggProduction
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -33,11 +33,11 @@
 			this.chick03 = new System.Windows.Forms.Label();
 			this.chick04 = new System.Windows.Forms.Label();
 			this.chick05 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox4 = new System.Windows.Forms.TextBox();
-			this.textBox5 = new System.Windows.Forms.TextBox();
+			this.egg1 = new System.Windows.Forms.TextBox();
+			this.egg2 = new System.Windows.Forms.TextBox();
+			this.egg3 = new System.Windows.Forms.TextBox();
+			this.egg4 = new System.Windows.Forms.TextBox();
+			this.egg5 = new System.Windows.Forms.TextBox();
 			this.addEggs = new System.Windows.Forms.Button();
 			this.totalEggs = new System.Windows.Forms.Label();
 			this.totalDozen = new System.Windows.Forms.Label();
@@ -89,40 +89,40 @@
 			this.chick05.TabIndex = 4;
 			this.chick05.Text = "Chicken 5";
 			// 
-			// textBox1
+			// egg1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(147, 67);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(65, 22);
-			this.textBox1.TabIndex = 5;
+			this.egg1.Location = new System.Drawing.Point(147, 67);
+			this.egg1.Name = "egg1";
+			this.egg1.Size = new System.Drawing.Size(65, 22);
+			this.egg1.TabIndex = 5;
 			// 
-			// textBox2
+			// egg2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(147, 108);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(65, 22);
-			this.textBox2.TabIndex = 6;
+			this.egg2.Location = new System.Drawing.Point(147, 108);
+			this.egg2.Name = "egg2";
+			this.egg2.Size = new System.Drawing.Size(65, 22);
+			this.egg2.TabIndex = 6;
 			// 
-			// textBox3
+			// egg3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(147, 149);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(65, 22);
-			this.textBox3.TabIndex = 7;
+			this.egg3.Location = new System.Drawing.Point(147, 149);
+			this.egg3.Name = "egg3";
+			this.egg3.Size = new System.Drawing.Size(65, 22);
+			this.egg3.TabIndex = 7;
 			// 
-			// textBox4
+			// egg4
 			// 
-			this.textBox4.Location = new System.Drawing.Point(147, 190);
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(65, 22);
-			this.textBox4.TabIndex = 8;
+			this.egg4.Location = new System.Drawing.Point(147, 190);
+			this.egg4.Name = "egg4";
+			this.egg4.Size = new System.Drawing.Size(65, 22);
+			this.egg4.TabIndex = 8;
 			// 
-			// textBox5
+			// egg5
 			// 
-			this.textBox5.Location = new System.Drawing.Point(147, 231);
-			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(65, 22);
-			this.textBox5.TabIndex = 9;
+			this.egg5.Location = new System.Drawing.Point(147, 231);
+			this.egg5.Name = "egg5";
+			this.egg5.Size = new System.Drawing.Size(65, 22);
+			this.egg5.TabIndex = 9;
 			// 
 			// addEggs
 			// 
@@ -161,7 +161,7 @@
 			this.singleEgg.TabIndex = 13;
 			this.singleEgg.Text = "Single Eggs";
 			// 
-			// eggProduction
+			// EggProduction
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -170,17 +170,17 @@
 			this.Controls.Add(this.totalDozen);
 			this.Controls.Add(this.totalEggs);
 			this.Controls.Add(this.addEggs);
-			this.Controls.Add(this.textBox5);
-			this.Controls.Add(this.textBox4);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.egg5);
+			this.Controls.Add(this.egg4);
+			this.Controls.Add(this.egg3);
+			this.Controls.Add(this.egg2);
+			this.Controls.Add(this.egg1);
 			this.Controls.Add(this.chick05);
 			this.Controls.Add(this.chick04);
 			this.Controls.Add(this.chick03);
 			this.Controls.Add(this.chick02);
 			this.Controls.Add(this.chick01);
-			this.Name = "eggProduction";
+			this.Name = "EggProduction";
 			this.Text = "Eggs Gathered";
 			this.ResumeLayout(false);
 			this.PerformLayout();
@@ -194,11 +194,11 @@
 		private System.Windows.Forms.Label chick03;
 		private System.Windows.Forms.Label chick04;
 		private System.Windows.Forms.Label chick05;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox3;
-		private System.Windows.Forms.TextBox textBox4;
-		private System.Windows.Forms.TextBox textBox5;
+		private System.Windows.Forms.TextBox egg1;
+		private System.Windows.Forms.TextBox egg2;
+		private System.Windows.Forms.TextBox egg3;
+		private System.Windows.Forms.TextBox egg4;
+		private System.Windows.Forms.TextBox egg5;
 		private System.Windows.Forms.Button addEggs;
 		private System.Windows.Forms.Label totalEggs;
 		private System.Windows.Forms.Label totalDozen;

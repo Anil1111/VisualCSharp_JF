@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace EggsInteractiveGUI
 {
-	public partial class eggProduction : Form
+	public partial class EggProduction : Form
 	{
-		public eggProduction ( )
+		public EggProduction ( )
 		{
 			InitializeComponent ( );
 		}
@@ -18,11 +18,11 @@ namespace EggsInteractiveGUI
 			int egg04;
 			int egg05;
 			const int DOZEN = 12;
-			egg01 = Convert.ToInt32(textBox1.Text);
-			egg02 = Convert.ToInt32(textBox2.Text);
-			egg03 = Convert.ToInt32(textBox3.Text);
-			egg04 = Convert.ToInt32 (textBox4.Text);
-			egg05 = Convert.ToInt32(textBox5.Text);
+			egg01 = Convert.ToInt32(egg1.Text);
+			egg02 = Convert.ToInt32(egg2.Text);
+			egg03 = Convert.ToInt32(egg3.Text);
+			egg04 = Convert.ToInt32 (egg4.Text);
+			egg05 = Convert.ToInt32(egg5.Text);
 			int addEggs = egg01 + egg02 + egg03 + egg04 + egg05;
 			int dozenEggs = addEggs / DOZEN;
 			int singleEggs = addEggs % DOZEN;

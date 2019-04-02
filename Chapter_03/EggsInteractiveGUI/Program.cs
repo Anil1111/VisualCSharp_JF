@@ -16,7 +16,7 @@ namespace EggsInteractiveGUI
 		{
 			Application.EnableVisualStyles ( );
 			Application.SetCompatibleTextRenderingDefault (false);
-			Application.Run (new eggProduction ( ));
+			Application.Run (new EggProduction ( ));
 		}
 	}
 }
