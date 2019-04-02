@@ -40,6 +40,8 @@
 			this.textBox5 = new System.Windows.Forms.TextBox();
 			this.addEggs = new System.Windows.Forms.Button();
 			this.totalEggs = new System.Windows.Forms.Label();
+			this.totalDozen = new System.Windows.Forms.Label();
+			this.singleEgg = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// chick01
@@ -135,17 +137,37 @@
 			// totalEggs
 			// 
 			this.totalEggs.AutoSize = true;
-			this.totalEggs.Location = new System.Drawing.Point(147, 279);
+			this.totalEggs.Location = new System.Drawing.Point(155, 279);
 			this.totalEggs.Name = "totalEggs";
 			this.totalEggs.Size = new System.Drawing.Size(76, 17);
 			this.totalEggs.TabIndex = 11;
 			this.totalEggs.Text = "Total Eggs";
+			// 
+			// totalDozen
+			// 
+			this.totalDozen.AutoSize = true;
+			this.totalDozen.Location = new System.Drawing.Point(155, 313);
+			this.totalDozen.Name = "totalDozen";
+			this.totalDozen.Size = new System.Drawing.Size(85, 17);
+			this.totalDozen.TabIndex = 12;
+			this.totalDozen.Text = "Total Dozen";
+			// 
+			// singleEgg
+			// 
+			this.singleEgg.AutoSize = true;
+			this.singleEgg.Location = new System.Drawing.Point(155, 347);
+			this.singleEgg.Name = "singleEgg";
+			this.singleEgg.Size = new System.Drawing.Size(83, 17);
+			this.singleEgg.TabIndex = 13;
+			this.singleEgg.Text = "Single Eggs";
 			// 
 			// eggProduction
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(364, 421);
+			this.Controls.Add(this.singleEgg);
+			this.Controls.Add(this.totalDozen);
 			this.Controls.Add(this.totalEggs);
 			this.Controls.Add(this.addEggs);
 			this.Controls.Add(this.textBox5);
@@ -179,6 +201,8 @@
 		private System.Windows.Forms.TextBox textBox5;
 		private System.Windows.Forms.Button addEggs;
 		private System.Windows.Forms.Label totalEggs;
+		private System.Windows.Forms.Label totalDozen;
+		private System.Windows.Forms.Label singleEgg;
 	}
 }
 
