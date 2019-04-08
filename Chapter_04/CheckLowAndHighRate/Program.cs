@@ -17,7 +17,7 @@ namespace CheckLowAndHighRate
 			string payRate = Console.ReadLine();
 			double hourlyPayRate = Convert.ToDouble(payRate);
 			if(hourlyPayRate < MIN_RATE || hourlyPayRate > MAX_RATE)
-				Console.WriteLine("Pay rate is invalid");
+				Console.WriteLine("Pay rate is invalid.");
 			else
 				Console.WriteLine("Pay rate is valid.");
 			Console.ReadLine();
