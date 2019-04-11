@@ -3,20 +3,16 @@
 ///of more than 140 characters. Save the program as Twitter.cs.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Twitter
 {
 	class Program
 	{
-		static void Main(string [] args)
+		private static void Main()
 		{
 			int characters; 
 			string message;
-			Console.Write("Enter your message");
+			Console.Write("Enter your message  ");
 			message = Console.ReadLine();
 			characters = message.Length;
 			if(characters > 140)
