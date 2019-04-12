@@ -19,7 +19,8 @@ namespace Admission
 		static void Main(string [] args)
 		{
 			//Define variables
-			const double GPA_REQUIRE = 2.9;
+			const double GPA_MIN = 2.9;
+			const double GPA_MAX = 3.0;
 			const int ADMISSION_MIN = 59;
 			const int ADMISSION_MAX = 79;
 
@@ -34,14 +35,14 @@ namespace Admission
 			int testScore = Convert.ToInt32(testEntry);
 
 			//Check qualifications
-			if (gpa > GPA_REQUIRE)
+			if (gpa > GPA_MIN)
 				if(testScore > ADMISSION_MIN)
-					Console.WriteLine("Acceptd");
-			if(gpa < GPA_REQUIRE)
+					Console.WriteLine("Student Acceptd");
+			if(gpa < GPA_MAX)
 				if(testScore > ADMISSION_MAX)
-					Console.WriteLine("Accepted");
+					Console.WriteLine("Student Accepted");
 			else
-					Console.WriteLine("Rejected");
+					Console.WriteLine("Student Rejected");
 		}
 	}
 }
