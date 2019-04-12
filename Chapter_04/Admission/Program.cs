@@ -34,7 +34,7 @@ namespace Admission
 			int testScore = Convert.ToInt32(testEntry);
 
 			//Check qualifications
-			if (gpa > GPA_REQUIRE) 
+			if (gpa > GPA_REQUIRE)
 				if(testScore > ADMISSION_MIN)
 					Console.WriteLine("Acceptd");
 			if(gpa < GPA_REQUIRE)
