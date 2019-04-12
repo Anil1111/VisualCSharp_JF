@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28809.33
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdmissionGUI", "AdmissionGUI.csproj", "{51525E69-0B62-43E3-AE74-1C762CEB87D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51525E69-0B62-43E3-AE74-1C762CEB87D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51525E69-0B62-43E3-AE74-1C762CEB87D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51525E69-0B62-43E3-AE74-1C762CEB87D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51525E69-0B62-43E3-AE74-1C762CEB87D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C21F2F5E-4F5D-4020-8C0B-25925AD3E719}
+	EndGlobalSection
+EndGlobal
